@@ -12,4 +12,5 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  attendees.each_with_index.map 
+  attendees.each_with_index.map do |attendee, index|
+    
